@@ -8,6 +8,7 @@ class ProductForm(forms.Form):
     def process_data(self):
         f = io.TextIOWrapper(self.cleaned_data['data_file'].file)
         reader = csv.DictReader(f)
+        print(reader)
         for product in reader:
             Product.objects.create(
                 name=product['name'],

@@ -1,7 +1,11 @@
+### django ###
+
 /backend/Lib
 /backend/Scripts
 /backend/pyvenv.cfg
+/backend/.vscode
 /.vscode
+.env
 *.log
 *.pot
 *.pyc
@@ -10,3 +14,13 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 media
+
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
