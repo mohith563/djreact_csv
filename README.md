@@ -4,7 +4,8 @@ Upload and save csv files with django and react
 ***
 
 ## Frontend
-Select and upload csv file through the frontend. It should contain two fields - name, price
+> Select and upload csv file through the frontend.
+> The csv file should contain two fields - name, price
 
 ## Backend
 Products model has two fields - name, price
